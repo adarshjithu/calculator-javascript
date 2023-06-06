@@ -1,0 +1,288 @@
+body{
+    background-color: rgb(75, 50, 198);
+    display: flex;
+   
+    justify-content: center;
+
+}
+.calc-body{
+  position: relative;
+   top: 75px;
+    width: 450px;
+    height: 500px;
+    background-color: rgb(75, 50, 198);
+}
+.head{
+    
+    width: 450px;
+    height: 75px;
+    background-color:black;
+    border-radius: 10px;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    width: 450px;
+    height: 400px;
+    background-color:#111;
+    border-radius: 10px;
+    justify-content: center;
+}
+#text{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #111;
+    color: antiquewhite;
+    border: none;
+    width: 450px;
+    height: 75px;
+    border-radius: 10px;
+}
+.div1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 75px;
+    background-color: rgb(6, 6, 6);
+}
+.div2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 75px;
+    background-color: rgb(10, 9, 9);
+}
+.div3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 75px;
+    background-color: rgb(11, 11, 10);
+}
+.div4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 450px;
+    height: 75px;
+    background-color: rgb(15, 12, 14);
+}
+.div5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 450px;
+    height: 75px;
+    background-color: rgb(16, 18, 21);
+}
+.btn{
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    width: 80px;
+    height: 60px;
+}
+.equal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 60px;
+    background-color: rgb(203, 70, 14);
+    border-radius: 10px;
+
+}
+.equal:hover{
+    background-color:yellow;
+    color: black;
+}
+.reset{
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    background-color: rgb(63, 11, 126);
+    border-radius: 10px;
+}
+.reset:hover{
+    color: black;
+    background-color: yellow;
+}
+.del{
+    border-radius: 10px;
+    width: 80px;
+    height: 60px;
+
+ 
+    background-color:rgb(63, 11, 126) ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.del:hover{
+    background-color:yellow;
+    color: black;
+}
+.equal-h1{
+    color: white;
+    font-size: 50px;
+}
+.equal-h1:hover{
+    color: black;
+}
+.btn:hover{
+    background-color:yellow;
+    color: rgb(23, 20, 20);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .del:hover{
+        background-color:yellow;
+        color: black;
+    }
+    .equal:hover{
+        background-color:yellow;
+        color: black;
+    }
+    .btn:hover{
+        background-color:yellow;
+        color: rgb(23, 20, 20);
+    }
+    .btn:hover{
+        background-color:yellow;
+        color: rgb(23, 20, 20);
+    }
+
+    .head{
+    
+        width: 350px;
+        height: 60px;
+        background-color:black;
+        border-radius: 10px;
+    }
+    #text{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #111;
+        color: antiquewhite;
+        border: none;
+        width: 400px;
+        height: 65px;
+        border-radius: 10px;
+    }
+    .body{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0;
+        width: 400px;
+        height: 350px;
+        background-color:#111;
+        border-radius: 10px;
+        justify-content: center;
+    }
+    .btn{
+        text-align: center;
+        font-size: 25px;
+        border-radius: 10px;
+        width: 65px;
+        height: 35px;
+    }
+    .div1{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 400px;
+        height: 60px;
+        background-color: rgb(6, 6, 6);
+    }
+    .div2{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 400px;
+        height: 60px;
+        background-color: rgb(10, 9, 9);
+    }
+    .div3{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 400px;
+        height: 60px;
+        background-color: rgb(11, 11, 10);
+    }
+    .div4{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 400px;
+        height: 60px;
+        background-color: rgb(15, 12, 14);
+    }
+    .div5{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+        width: 400px;
+        height: 60px;
+        background-color: rgb(16, 18, 21);
+    }
+    .calc-body{
+        position: relative;
+         top: 75px;
+          width: 400px;
+          height: 450px;
+          background-color: rgb(75, 50, 198);
+      }
+      .del{
+        border-radius: 10px;
+        width: 65px;
+        height: 35px;
+    
+     
+        background-color:rgb(63, 11, 126) ;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .equal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 160px;
+        height: 40px;
+        background-color: rgb(203, 70, 14);
+        border-radius: 10px;
+    }
+    .reset{
+        border: none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 40px;
+        background-color: rgb(63, 11, 126);
+        border-radius: 10px;
+    }
+  }
